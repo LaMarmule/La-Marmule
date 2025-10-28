@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road to Nice 2026 - Championnat du Monde Ironman 70.3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">ROAD TO NICE</div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#projet" class="nav-link">Le Projet</a></li>
+                <li><a href="#athlete" class="nav-link">L'Athlète</a></li>
+                <li><a href="#entrainement" class="nav-link">Entraînement</a></li>
+                <li><a href="#partenaires" class="nav-link">Partenaires</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">ROAD TO NICE 2026</h1>
+            <h2 class="hero-subtitle fade-in">Championnat du Monde Ironman 70.3</h2>
+            <p class="hero-tagline fade-in">1.9 km Natation | 90 km Vélo | 21 km Course | 1 Rêve</p>
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-value" id="days">0</span>
+                    <span class="countdown-label">Jours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="hours">0</span>
+                    <span class="countdown-label">Heures</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="minutes">0</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+            </div>
+            <a href="#partenaires" class="btn-cta">Devenez Partenaire</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Le Projet Section -->
+    <section class="section" id="projet">
+        <div class="container">
+            <h2 class="section-title">Le Projet</h2>
+            <div class="project-intro">
+                <p>Mon objectif est de me qualifier et de participer au <strong>Championnat du Monde Ironman 70.3</strong> qui se tiendra à <strong>Nice, France</strong> les <strong>12-13 septembre 2026</strong>. Cette compétition prestigieuse rassemble les meilleurs triathlètes du monde sur un parcours exceptionnel le long de la Côte d'Azur.</p>
+            </div>
+            
+            <div class="race-stats">
+                <div class="stat-card">
+                    <div class="stat-icon swim-icon">🏊</div>
+                    <div class="stat-value">1.9 km</div>
+                    <div class="stat-label">Natation en mer</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon bike-icon">🚴</div>
+                    <div class="stat-value">90 km</div>
+                    <div class="stat-label">Parcours vallonné</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon run-icon">🏃</div>
+                    <div class="stat-value">21.1 km</div>
+                    <div class="stat-label">Semi-marathon</div>
+                </div>
+            </div>
+
+            <div class="callout-box">
+                <h3>Nouveau système de qualification 2026</h3>
+                <p>Le championnat du monde 2026 introduit un nouveau système de qualification basé sur la performance. Les athlètes doivent atteindre des temps qualificatifs lors de courses Ironman 70.3 officielles pour obtenir leur place parmi l'élite mondiale.</p>
+            </div>
+
+            <div class="quote-box">
+                <blockquote>"Anything is Possible"</blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- L'Athlète Section -->
+    <section class="section section-alt" id="athlete">
+        <div class="container">
+            <h2 class="section-title">Profil de l'Athlète</h2>
+            <div class="athlete-profile">
+                <div class="athlete-image">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1761337200/pplx_project_search_images/69fae328835ef93b45e4fc0f7705797c376d6b00.png" alt="Athlète en entraînement">
+                </div>
+                <div class="athlete-bio">
+                    <h3>Passionné de Triathlon</h3>
+                    <p>Depuis mes débuts dans le triathlon il y a plusieurs années, j'ai développé une passion profonde pour ce sport exigeant qui combine trois disciplines et demande une préparation mentale et physique exceptionnelle.</p>
+                    
+                    <h4>Réalisations Clés</h4>
+                    <ul class="achievements-list">
+                        <li>Plusieurs participations à des courses Ironman 70.3</li>
+                        <li>Amélioration continue des performances sur toutes les disciplines</li>
+                        <li>Expérience en compétition nationale et internationale</li>
+                        <li>Engagement dans un programme d'entraînement structuré et professionnel</li>
+                    </ul>
+
+                    <div class="motivation-statement">
+                        <p><strong>Ma motivation :</strong> Repousser mes limites et représenter mon pays au plus haut niveau mondial du triathlon. Chaque entraînement, chaque course, chaque défi me rapproche de cet objectif ultime : participer au Championnat du Monde à Nice en 2026.</p>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank" class="social-link" aria-label="Strava">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M15.387 17.944l-2.089-4.116h-3.065L15.387 24l5.15-10.172h-3.066m-7.008-5.599l2.836 5.598h4.172L10.463 0l-7 13.828h4.169"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programme d'Entraînement Section -->
+    <section class="section" id="entrainement">
+        <div class="container">
+            <h2 class="section-title">Programme d'Entraînement</h2>
+            
+            <div class="training-timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-phases">
+                    <div class="phase-card">
+                        <div class="phase-icon">📈</div>
+                        <h3>Phase 1: Base d'endurance</h3>
+                        <p class="phase-duration">12 semaines</p>
+                        <p>Construction de la capacité aérobie et technique</p>
+                    </div>
+                    <div class="phase-card">
+                        <div class="phase-icon">💪</div>
+                        <h3>Phase 2: Construction</h3>
+                        <p class="phase-duration">8 semaines</p>
+                        <p>Augmentation du volume et intensité modérée</p>
+                    </div>
+                    <div class="phase-card">
+                        <div class="phase-icon">⚡</div>
+                        <h3>Phase 3: Intensité &amp; Spécificité</h3>
+                        <p class="phase-duration">8 semaines</p>
+                        <p>Entraînements au rythme course</p>
+                    </div>
+                    <div class="phase-card">
+                        <div class="phase-icon">🏆</div>
+                        <h3>Phase 4: Affûtage &amp; Course</h3>
+                        <p class="phase-duration">3 semaines</p>
+                        <p>Réduction volume, fraîcheur maximale</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="training-stats">
+                <div class="training-stat">
+                    <div class="stat-number" data-target="17">0</div>
+                    <div class="stat-text">Heures / semaine</div>
+                </div>
+                <div class="training-stat">
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-text">Kilomètres / mois</div>
+                </div>
+                <div class="training-stat">
+                    <div class="stat-number" data-target="200">0</div>
+                    <div class="stat-text">Séances complétées</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opportunités de Partenariat Section -->
+    <section class="section section-alt" id="partenaires">
+        <div class="container">
+            <h2 class="section-title">Devenez Partenaire</h2>
+            <p class="section-intro">Soutenez ce projet ambitieux et bénéficiez d'une visibilité exceptionnelle</p>
+            
+            <div class="sponsorship-tiers">
+                <div class="tier-card tier-platinum">
+                    <div class="tier-badge">Platine</div>
+                    <div class="tier-price">5000€+</div>
+                    <ul class="tier-benefits">
+                        <li>✓ Logo sur tous les équipements</li>
+                        <li>✓ Mentions réseaux sociaux</li>
+                        <li>✓ Articles de blog dédiés</li>
+                        <li>✓ Présence visuels promotionnels</li>
+                        <li>✓ Invitation aux événements</li>
+                    </ul>
+                    <a href="#contact" class="btn-tier">Contacter</a>
+                </div>
+
+                <div class="tier-card tier-gold">
+                    <div class="tier-badge">Or</div>
+                    <div class="tier-price">2500-5000€</div>
+                    <ul class="tier-benefits">
+                        <li>✓ Logo équipement principal</li>
+                        <li>✓ Mentions régulières réseaux</li>
+                        <li>✓ Présence site web</li>
+                        <li>✓ Articles mensuels</li>
+                    </ul>
+                    <a href="#contact" class="btn-tier">Contacter</a>
+                </div>
+
+                <div class="tier-card tier-silver">
+                    <div class="tier-badge">Argent</div>
+                    <div class="tier-price">1000-2500€</div>
+                    <ul class="tier-benefits">
+                        <li>✓ Logo sur site web</li>
+                        <li>✓ Mentions réseaux sociaux</li>
+                        <li>✓ Newsletter</li>
+                    </ul>
+                    <a href="#contact" class="btn-tier">Contacter</a>
+                </div>
+
+                <div class="tier-card tier-bronze">
+                    <div class="tier-badge">Bronze</div>
+                    <div class="tier-price">500-1000€</div>
+                    <ul class="tier-benefits">
+                        <li>✓ Logo page partenaires</li>
+                        <li>✓ Remerciements réseaux</li>
+                    </ul>
+                    <a href="#contact" class="btn-tier">Contacter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Actualités Section -->
+    <section class="section" id="actualites">
+        <div class="container">
+            <h2 class="section-title">Dernières Actualités</h2>
+            
+            <div class="blog-posts">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1759000012/pplx_project_search_images/61f19f45766b5bd9ad7f87c35b9174b73cc417e2.png" alt="Préparation hivernale">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">15 janvier 2025</div>
+                        <h3 class="blog-title">Ma stratégie de préparation hivernale</h3>
+                        <p class="blog-excerpt">Comment j'aborde l'entraînement pendant la période froide pour construire une base solide...</p>
+                        <a href="#" class="blog-link">Lire la suite →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1761337200/pplx_project_search_images/53ed61b6b2a71ac4410fc1e396d35fc4e0f2c23b.png" alt="Nutrition et performance">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">8 janvier 2025</div>
+                        <h3 class="blog-title">Nutrition et performance en triathlon</h3>
+                        <p class="blog-excerpt">Les clés de ma stratégie nutritionnelle pour optimiser l'entraînement et la récupération...</p>
+                        <a href="#" class="blog-link">Lire la suite →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1761337202/pplx_project_search_images/0297b5dfd8a9c40716d9172ea061917df73e6649.png" alt="Dernière course">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">20 décembre 2024</div>
+                        <h3 class="blog-title">Retour sur ma dernière course</h3>
+                        <p class="blog-excerpt">Analyse de ma performance et enseignements pour progresser vers l'objectif 2026...</p>
+                        <a href="#" class="blog-link">Lire la suite →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            
+            <div class="contact-wrapper">
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="type">Type de demande</label>
+                            <select id="type" name="type">
+                                <option value="partenariat">Partenariat</option>
+                                <option value="question">Question générale</option>
+                                <option value="media">Média</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">Envoyer</button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <div class="success-icon">✓</div>
+                        <p>Merci pour votre message ! Je vous répondrai dans les plus brefs délais.</p>
+                    </div>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="info-box">
+                        <div class="info-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <span>contact@roadtonice2026.fr</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>France</span>
+                        </div>
+                        
+                        <div class="info-social">
+                            <h4>Suivez-moi</h4>
+                            <div class="social-icons">
+                                <a href="#" target="_blank" aria-label="Instagram">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                    </svg>
+                                </a>
+                                <a href="#" target="_blank" aria-label="Facebook">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                    </svg>
+                                </a>
+                                <a href="#" target="_blank" aria-label="Strava">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M15.387 17.944l-2.089-4.116h-3.065L15.387 24l5.15-10.172h-3.066m-7.008-5.599l2.836 5.598h4.172L10.463 0l-7 13.828h4.169"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>ROAD TO NICE</h3>
+                    <p>Objectif Championnat du Monde Ironman 70.3 - Nice 2026</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Liens</h4>
+                    <ul>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Réseaux Sociaux</h4>
+                    <div class="footer-social">
+                        <a href="#" target="_blank" aria-label="Instagram">Instagram</a>
+                        <a href="#" target="_blank" aria-label="Facebook">Facebook</a>
+                        <a href="#" target="_blank" aria-label="Strava">Strava</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Road to Nice - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
